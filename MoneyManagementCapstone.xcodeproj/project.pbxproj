@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0526372807265F001CE78E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0526362807265F001CE78E /* SignUpViewController.swift */; };
+		4AD28B2B27FC887200988835 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD28B2A27FC887200988835 /* ContentView.swift */; };
+		4ADB6C60280320FC00D3BA2A /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB6C5F280320FC00D3BA2A /* SignUpPage.swift */; };
+		4AE6888A2808C1B3004D543F /* OldWorkingLoginCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE688892808C1B3004D543F /* OldWorkingLoginCode.swift */; };
+		4AE6888D2808C2C1004D543F /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6888C2808C2C1004D543F /* FirstPageViewController.swift */; };
 		892C439A27F50A6E00CB6148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C439927F50A6E00CB6148 /* AppDelegate.swift */; };
 		892C439C27F50A6E00CB6148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C439B27F50A6E00CB6148 /* SceneDelegate.swift */; };
 		892C439E27F50A6E00CB6148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C439D27F50A6E00CB6148 /* ViewController.swift */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A0526362807265F001CE78E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4AD28B2A27FC887200988835 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4ADB6C5F280320FC00D3BA2A /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		4AE688892808C1B3004D543F /* OldWorkingLoginCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldWorkingLoginCode.swift; sourceTree = "<group>"; };
+		4AE6888C2808C2C1004D543F /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		892C439627F50A6E00CB6148 /* MoneyManagementCapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManagementCapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		892C439927F50A6E00CB6148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		892C439B27F50A6E00CB6148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,11 +81,16 @@
 				892C439927F50A6E00CB6148 /* AppDelegate.swift */,
 				892C439B27F50A6E00CB6148 /* SceneDelegate.swift */,
 				892C439D27F50A6E00CB6148 /* ViewController.swift */,
+				4AD28B2A27FC887200988835 /* ContentView.swift */,
 				892C439F27F50A6E00CB6148 /* Main.storyboard */,
 				892C43A227F50A7600CB6148 /* Assets.xcassets */,
 				892C43A427F50A7600CB6148 /* LaunchScreen.storyboard */,
 				892C43A727F50A7600CB6148 /* Info.plist */,
 				8957BE4927FBAFCA001F20CB /* GoogleService-Info.plist */,
+				4ADB6C5F280320FC00D3BA2A /* SignUpPage.swift */,
+				4A0526362807265F001CE78E /* SignUpViewController.swift */,
+				4AE688892808C1B3004D543F /* OldWorkingLoginCode.swift */,
+				4AE6888C2808C2C1004D543F /* FirstPageViewController.swift */,
 			);
 			path = MoneyManagementCapstone;
 			sourceTree = "<group>";
@@ -161,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0526372807265F001CE78E /* SignUpViewController.swift in Sources */,
 				892C439E27F50A6E00CB6148 /* ViewController.swift in Sources */,
+				4ADB6C60280320FC00D3BA2A /* SignUpPage.swift in Sources */,
+				4AE6888A2808C1B3004D543F /* OldWorkingLoginCode.swift in Sources */,
+				4AE6888D2808C2C1004D543F /* FirstPageViewController.swift in Sources */,
 				892C439A27F50A6E00CB6148 /* AppDelegate.swift in Sources */,
+				4AD28B2B27FC887200988835 /* ContentView.swift in Sources */,
 				892C439C27F50A6E00CB6148 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

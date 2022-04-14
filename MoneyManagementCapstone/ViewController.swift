@@ -4,17 +4,12 @@
 //
 //  Created by user204344 on 3/30/22.
 //
-
+//CODe to logout on line no 76
 import UIKit
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-//        hello rutvik
-    }
-
-
+    
 }
 
