@@ -2,18 +2,22 @@
 //  ViewController.swift
 //  MoneyManagementCapstone
 //
-//  Created by user204344 on 3/30/22.
+//  Created by Satyam on 2022-04-09.
 //
-
+import Firebase
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+   
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
-
-
+    
+    
 }
 

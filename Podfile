@@ -7,4 +7,6 @@ target 'MoneyManagementCapstone' do
 
   # Pods for MoneyManagementCapstone
 
+pod 'Charts'
+
 end
