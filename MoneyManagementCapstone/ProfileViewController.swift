@@ -174,12 +174,14 @@ class ProfileViewController: UIViewController {
             let last_name = value?["last_name"] as? String ?? ""
             let profile_image_url = value?["profile_image_url"] as? String ?? ""
             
-            self.firstName.text = first_name
-            self.lastName.text = last_name
-            self.emailAddress.text = email_address
+            let profileDataModel = ProfileDataModel(email_address: email_address , first_name: first_name , last_name: last_name , profile_image_url: profile_image_url )
+            
+            self.firstName.text = profileDataModel.first_name
+            self.lastName.text = profileDataModel.last_name
+            self.emailAddress.text = profileDataModel.email_address
             
             do {
-                let url = URL(string: profile_image_url)
+                let url = URL(string: profileDataModel.profile_image_url)
                 let data = try Data(contentsOf: url!)
                 self.profileImageView.image = UIImage(data: data)
                 self.profileImageUrl = profile_image_url

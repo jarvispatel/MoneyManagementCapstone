@@ -15,6 +15,7 @@
 		892C43A627F50A7600CB6148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892C43A427F50A7600CB6148 /* LaunchScreen.storyboard */; };
 		893A23A22801051D009032D2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893A23A12801051D009032D2 /* ProfileViewController.swift */; };
 		8957BE4A27FBAFCA001F20CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8957BE4927FBAFCA001F20CB /* GoogleService-Info.plist */; };
+		8994C1C62809C0B4008C8F13 /* ProfileDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8994C1C52809C0B4008C8F13 /* ProfileDataModel.swift */; };
 		899842DA28009B1B00DC6BCD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899842D928009B1B00DC6BCD /* SettingsViewController.swift */; };
 		899842DD28009F4700DC6BCD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899842DC28009F4700DC6BCD /* SettingsView.swift */; };
 		89C5181727F54AAC005AAC3B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 89C5181627F54AAC005AAC3B /* FirebaseAnalytics */; };
@@ -35,6 +36,7 @@
 		892C43A727F50A7600CB6148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		893A23A12801051D009032D2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8957BE4927FBAFCA001F20CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8994C1C52809C0B4008C8F13 /* ProfileDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataModel.swift; sourceTree = "<group>"; };
 		899842D928009B1B00DC6BCD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		899842DC28009F4700DC6BCD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				899842D928009B1B00DC6BCD /* SettingsViewController.swift */,
 				899842DC28009F4700DC6BCD /* SettingsView.swift */,
 				893A23A12801051D009032D2 /* ProfileViewController.swift */,
+				8994C1C52809C0B4008C8F13 /* ProfileDataModel.swift */,
 			);
 			path = MoneyManagementCapstone;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				893A23A22801051D009032D2 /* ProfileViewController.swift in Sources */,
 				899842DD28009F4700DC6BCD /* SettingsView.swift in Sources */,
 				892C439E27F50A6E00CB6148 /* ViewController.swift in Sources */,
+				8994C1C62809C0B4008C8F13 /* ProfileDataModel.swift in Sources */,
 				892C439A27F50A6E00CB6148 /* AppDelegate.swift in Sources */,
 				892C439C27F50A6E00CB6148 /* SceneDelegate.swift in Sources */,
 				899842DA28009B1B00DC6BCD /* SettingsViewController.swift in Sources */,
